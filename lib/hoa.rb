@@ -11,5 +11,5 @@ def add_character(show, name)
   hoa = BASE_HOA
   index = hoa[show].size
   hoa[show][index] = name
-  hoa
+  hoa[show]
 end
