@@ -8,4 +8,8 @@ BASE_HOA = {
 def add_character(show, name)
   # Write your implementation here
   # Should return the array of the 'show' argument
+  hoa = BASE_HOA
+  index = hoa[show].size
+  hoa[show][index] = name
+  hoa[show]
 end
